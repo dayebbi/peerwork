@@ -1,8 +1,10 @@
 # Birthday Problem
 
+
 ## Veridical Paradox
 The birthday problem is a veridical paradox: a proposition that at first appears counterintuitive, but is in fact true showing that only 23 individuals are required to reach a 50% probability of a shared birthday. By considering comparisons made between every possible pair of individuals, With 23 individuals, there are (23 × 22) / 2 = 253 pairs to consider, which is well over half the number of days in a year (182.5 or 183).
 Real-world applications include a cryptographic attack called the birthday attack, which uses this probabilistic model to reduce the complexity of finding a collision for a hash function, as well as calculating the approximate risk of a hash collision existing within the hashes of a given size of population.
+
 
 ## Calculating the probability
 - Compute an apporximate probability; at least two have the same birthday in a group of n people
@@ -16,6 +18,7 @@ p(n') = 1 x (1 - 1/365) x (1 - 2//365) x (1 - 3/365) x ... x (1 - (n-1)/365))
       = (365 x 364 x 363 x ... (365-n+1)) / 365^n
       = 365!/365^n(365-n)!
 ![Final_Function] (https://wikimedia.org/api/rest_v1/media/math/render/svg/97247979ca9c9ce1de6ae233eb2ad1f1bca4ea22)
+
 
 ### Example: Conditional probability with 23
 P(A) = 1 − P(A')
