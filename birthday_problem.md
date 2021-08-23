@@ -11,6 +11,7 @@ Real-world applications include a cryptographic attack called the birthday attac
 - For simplicity,
     - Variations in the distribution(leap years, twins, seasonal, or weekday) are disregard
     - Assuming that all 365 possible birthdays are equally likely
+    - https://en.wikipedia.org/wiki/Pigeonhole_principle
 
 Let's say p(n) is the probability of at least two of the n people sharing a birthday, p(n') is the possibility that all n birthdayts are different.
 
